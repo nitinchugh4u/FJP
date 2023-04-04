@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        html {
+  font-size: 16px;
+}
+
+.ems li {
+    /* 16 * 1.3 = 20.8 */
+    /* font size will calculate by there parent font size in case of em unit */
+     /* for 1em it will remain same as 16px */
+  font-size: 1.3em;
+}
+
+.rems li {
+  font-size: 1.3rem;
+}
+.blue{
+    background-color: darkcyan;
+    width: 2em;
+    height: 2em;
+    /* 1em= 30px */
+    /* it will take the font size of that element equal to  1em */
+    font-size: 30px;
+}
+
+.parent{
+    background-color: cornflowerblue;
+    width: 25rem;
+} 
+
+.para{
+    width: 75%;
+}
+
+.dynamic1{
+    background-color: deepskyblue;
+    /* height: 20rem; */
+    /* width: 20rem; */
+    height: 50vh;
+    width: 50vw;
+
+}
+.dynamic2{
+    background-color:maroon;
+    /* height : 20rem; */
+    /* width: 20rem; */
+    height : 50vh;
+    width: 50vw;
+
+
+}
+
+    </style>
+</head>
+<body>
+
+    <ul class="ems">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three
+          <ul>
+            <li>Three A</li>
+            <li>Three B
+              <ul>
+                <li>Three B 2</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="blue">
+        Hello how are you
+      </div>
+      
+      <ul class="rems">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three
+          <ul>
+            <li>Three A</li>
+            <li>Three B
+              <ul>
+                <li>Three B 2</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+
+      <!-- percentage -->
+      <div class="parent">
+        <p class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur facere quos voluptatem, perspiciatis fugiat molestias quidem ullam alias odit odio obcaecati fugit repellat distinctio sint quasi explicabo enim. Saepe, rerum?
+        </p>
+      </div>
+
+
+      <!-- viewport width and viewport height -->
+
+    <div class="dynamic1">
+        hello
+    </div>
+
+    <div class="dynamic2">
+        hello2
+    </div>
+          
+
+
+    
+</body>
+</html>
