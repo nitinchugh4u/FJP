@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.toolbox-cont{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+      /* justify-content:center; */
+    padding: 4px;
+    height: 5rem;
+    background-color: grey;
+}
+
+.toolbox-cont>*{
+    margin-left: 4rem;
+}
+
+.toolbox-color-cont{
+    height: 70%;
+    width: 18rem;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:cadetblue
+    /* padding: 20px; */
+}
+
+.toolbox-color-cont>div{
+    width: 3rem;
+    height: 1.5rem;
+
+}
+
+.Lightpink{
+    background-color: lightpink;
+}
+.Lightgreen{
+    background-color:lightgreen;
+}
+.Lightblue{
+    background-color:lightblue;
+}
+.black{
+    background-color:black;
+}
+
+.action-btn{
+    
+    background-color: cadetblue;
+    height:70%;
+    width: 9rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.action-btn i{
+    font-size: 2rem;
+    color: white;
+}
+
+
+/* modal container */
+
+.modal-cont{
+    background-color: grey;
+    height: 50vh;
+    width: 45vw ;
+    display: flex;
+    position: absolute;
+    /* top: 10rem; */
+    /* left: 20rem; */
+    top: calc((100vh - 50vh)/2);
+    left: calc((100vw - 45vw)/2);
+}
+
+.textarea-cont{
+    width: 75%;
+    height: 100%;
+    border: none;
+    background-color: #dfe4ea;
+    border: none;
+    resize: none;
+    font-size: 2.5rem;
+    outline: none;
+
+
+}
+
+.priority-color-cont{
+    height: 100%;
+    width: 25%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.priority-color-cont>div{
+    height: 10%;
+    width: 40%;
+
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
