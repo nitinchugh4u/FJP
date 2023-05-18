@@ -12,7 +12,7 @@ body{
     /* justify-content: center; */
     align-items: center;
       /* justify-content:center; */
-    padding: 4px;
+    padding:  4px;
     height: 5rem;
     background-color: grey;
 }
@@ -108,7 +108,6 @@ body{
 .priority-color-cont>div{
     height: 10%;
     width: 40%;
-
 }
 
 
